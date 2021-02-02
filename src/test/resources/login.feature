@@ -6,5 +6,5 @@ Feature: Use Prime membership
   @regression
   Scenario: Go to Prime section
       Given the user is on Home page
-      When he logs in with valid credentials "lina_svetoslavova@abv.bg" and "1234567890"
-      Then ensure the user's name "Lina" is displayed
+      When he logs in with valid credentials "putYourEmailHere" and "putYourPasswordHere"
+      Then ensure the user's name "PutYourRegisteredName" is displayed
