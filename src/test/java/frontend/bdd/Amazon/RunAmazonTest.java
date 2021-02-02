@@ -5,6 +5,6 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(plugin = { "progress", "html:target/cucumber-html-report" },
 				features = "src/test/resources",
-				tags = "@bla")
+				tags = "@regression")
 public class RunAmazonTest extends AbstractTestNGCucumberTests {
 }
