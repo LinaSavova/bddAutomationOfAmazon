@@ -37,11 +37,11 @@ Feature: Remove an item from the basket
       And he adds the book to the basket
       And he taps to edit the basket
       Then verify that the book thumbnail is shown on the list
-      And the title "Harry Potter and the Cursed Child - Parts One and Two"
+      And the title "Harry Potter and the Cursed Child"
       And the type of print is "Paperback"
-      And the price is "£4.00"
+      And the price is "£9.65"
       And quantity is "1"
-      And the total price is "£4.00"
+      And the total price is "£9.65"
 
   @regression @smoke @books
   Scenario: Change book's quantity
@@ -53,7 +53,7 @@ Feature: Remove an item from the basket
       And he adds the book to the basket
       Then verify that a notification is shown with the title "Added to Basket"
       And there is "3 items" in the basket
-      And the price in notification is "£12.00"
+      And the price in notification is "£28.95"
 
   @regression @smoke @books
   Scenario: Remove a book from basket

@@ -9,7 +9,7 @@ public class Prime extends BasePage {
 
     private static final By EXPLORE_PRIME_DELIVERY_BUTTON = By.cssSelector("#shipBenefitPanel .a-link-normal");
     private static final By JOIN_PRIME_TEXT = By.cssSelector(".is-right-content");
-    private static final By TRY_PRIME_FREE_BUTTON = By.id("a-autoid-0-announce");
+    private static final By TRY_PRIME_FREE_BUTTON = By.cssSelector(".a-button-text");
     private static final By SIGN_IN_PAGE_TITLE = By.cssSelector(".a-box-inner h1");
 
     /**

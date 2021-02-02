@@ -3,7 +3,7 @@ Feature: Sort the searched items by different values
       I want to use an option to sort the items I search for by different filters
       so that the items searched to suit best to my preferences
 
-  @regression
+  @bla
   Scenario: Sort by price - Low To High
       Given the user is on Home page
       When he goes to Gift Ideas section

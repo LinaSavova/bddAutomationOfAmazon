@@ -35,7 +35,6 @@ Feature: Navigate to item's details
     When he goes to Books section
     When he searches for "Harry Potter and the Cursed Child" book title
     And he taps the type "Paperback"
-    Then ensure that the title contains "Harry Potter and the Cursed Child - Parts One and Two"
-    And verify the price is "£4.00"
+    Then ensure that the title contains "Harry Potter and the Cursed Child"
+    And verify the price is "£9.65"
     And verify that the marked type is "Paperback"
-    And verify that the "#1 Best Seller" badge is displayed

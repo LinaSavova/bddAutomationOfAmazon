@@ -42,8 +42,8 @@ public class BooksStepDefinitions {
     }
 
     @Then("ensure that the first items has the title: {string}")
-    public void ensure_that_the_first_items_has_the_title(String expectedTitle) {
-        Books.verifyFirstItemTitle(expectedTitle, "Not the right title is displayed!");
+    public void ensure_that_the_first_items_has_the_title(String expectedFirstItemTitle) {
+        Books.verifyFirstItemTitle(expectedFirstItemTitle, "Not the right title is displayed!");
     }
 
     @Then("it has a badge {string}")

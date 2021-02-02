@@ -11,7 +11,7 @@ Feature: Search for an item
       Then ensure that the first items has the title: "Harry Potter and the Cursed Child - Parts One and Two"
       And it has a badge "Best Seller"
       And it has a type "Paperback"
-      And ensure that the price is "£4.00"
+      And ensure that the price is "£9.65"
 
   @regression @electronics
   Scenario: Search for a camera (Electronics section)
@@ -21,7 +21,7 @@ Feature: Search for an item
     Then ensure that the first items has the title: "Blink"
     And it contains a label "Amazon Certified:"
     And it has a Prime checkmark
-    And ensure that the price of the first item is "£99.99"
+    And ensure that the price of the first item is "£89.99"
 
   @regression @gifts
   Scenario: Search for a perfume (Gifts section)

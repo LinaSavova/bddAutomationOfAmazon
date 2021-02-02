@@ -27,7 +27,7 @@ Feature: Change currency
     And he searches for "Harry Potter and the Cursed Child"
     Then verify that the price from here on have "BGN" label
 
-  @bla
+  @regression
   Scenario: Change currency from bottom button
     Given the user is on Home page
     When he scrolls down

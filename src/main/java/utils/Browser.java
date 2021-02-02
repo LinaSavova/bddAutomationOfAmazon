@@ -22,7 +22,7 @@ public class Browser {
      * Method to kill the browser
      */
     public static void quit() {
-  //      driver.quit();
+        driver.quit();
     }
 }
 

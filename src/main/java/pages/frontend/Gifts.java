@@ -50,6 +50,7 @@ public class Gifts extends BasePage {
         List<WebElement> allPrices = Browser.driver.findElements(GIFTS_PRICES);
         for (WebElement currPrice : allPrices) {
             obtainedListPrices.add(currPrice.getText().replaceAll("\\s", ".").replace("£", ""));
+
             System.out.println(obtainedListPrices);
             System.out.println("===================================");
         }
